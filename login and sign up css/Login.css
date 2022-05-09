@@ -1,0 +1,49 @@
+body {
+    background-image: url("../images/turkey\ mosque.png");
+    background-size: 1950px;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+}
+ .Login-box {
+     width: 360px;
+     height: 620px;
+     margin: auto;
+     background-color: none;
+     background-size: contain;
+     border-radius: 10px;
+     padding-top: 200px;
+ }
+
+ h1{
+     text-align: center;
+     padding-top: 15px;
+ }
+
+ form{
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    background-color: none;
+    outline: none;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: black;
+    font-size: 18px;
+}
