@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+nav{
+	width: 100%;
+	height: 75px;
+	background-color: #505d61;
+	line-height: 75px;
+	padding:0px 100px;
+	position:fixed;
+	z-index: 1;
+}
+nav .logo{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px; 
+}
+nav .logo p{
+	float: left;
+	color:#fff;
+	text-transform: uppercase;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding:0px 32px;
+}
+nav ul li a:hover{
+	color:#c0d96f;
+}
+nav ul li .active{
+	color:#c0d96f;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+/* .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+  right: 0;
+  border-radius: 3px 0 0 3px;
+
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} */
+.head {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  font-size: 38px;
+  color: #000;
+  box-sizing: border-box;
+
+
+}
+.border{
+  border-style: groove;
+ 
+  width: 50%;
+  border: 15px solid rgb(189, 215, 240);
+  padding: 50px;
+  margin: 20px; 
+  display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 40%;
+  
+
+
+
+}
+.body {
+  padding: 0;
+  margin: 0;
+  
+  width: 100%;
+  height: 5px; 
+  text-align: 30px;  
+  align-content: center;
+  
+   
+
+    
+  }
+   
+  
+
+
+
+
+p {
+  margin: 12px 0px 24px;
+  line-height: 1.632;
+  padding:10px;
+  font-size:larger;
+  
+
+  }
+
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+   
+  }
+h3 {
+  margin: 12px 0px 24px;
+  line-height: 1.632;
+  padding: 20px;
+  font-size:xx-large;
+  
+}
+h2{
+  margin: 12px 0px 24px;
+  line-height: 1.632;
+  padding: 20px;
+  font-size:xx-large;
+  
+}
+.RitchText{
+  text-align: center;
+
+  margin: 12px 0px 24px;
+  line-height: 1.632;
+  padding:400px;
+}
+.div bg g{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+
+}
+pre {
+ 
+  width: 50%;
+  
+  padding: 50px;
+  margin: 20px; 
+  display: block;
+    margin-left:40%;
+    margin-right:40%;
+    width: 40%;
+    font-size: xx-large;
+
+}
+.map{
+  border-style: groove;
+ 
+  width: 50%;
+  border: 15px solid rgb(189, 215, 240);
+  padding: 50px;
+  margin: 20px; 
+  display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 40%;
+}
+footer{
+  background-color:#505d61;
+  width: 100vw;
+  height: auto;
+  font-family:" open sana";
+
+}
+h4 {
+  width: 50%;
+  
+  padding: 50px;
+  margin: 20px; 
+  display: block;
+    margin-left:35%;
+    margin-right:35%;
+    width: 40%;
+    font-size:xx-large;
+    font-family:" open sana";
+
+
+
+}
+h5 {
+  width: 50%;
+  
+  padding: 50px;
+  margin: 20px; 
+  display: block;
+    margin-left:38%;
+    margin-right:38%;
+    width: 40%;
+    font-size:x-small;
+
+}
+.image{
+
+ 
+ 
+ 
+
+}
