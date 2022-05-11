@@ -1,0 +1,248 @@
+/* -----------------
+fonts
+--------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+  blur: blur(10px);
+  font-family: Poppins, sans-serif;
+  --glass-bg-color: hsla(0, 0%, 100%, 0.05);
+  --glass-bg-color2: hsla(0, 0%, 100%, 0.50);
+  --border-color: hsla(0, 0%, 100%, 0.25)
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;;
+}
+body{
+background-color: black;
+}
+body h1{
+  padding: 60px 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+body::after,
+body::before{
+  content: '';
+  position: fixed;
+  height: 400px;
+  width:400px;
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(150px);
+  opacity: 0.5px;
+}
+body::after{
+background-color: blue;
+left: 0;
+bottom: 0;
+transform: translateX(-50%);
+}
+body::before{
+background-color: violet;
+right: 0;
+top: 0;
+transform: translateX(50%);
+}
+.main{
+min-height: 100vh;
+padding: 60px 15px;
+align-items: center;
+justify-content: center;
+}
+.main-content1 .infobox{
+  background-color: var(--glass-bg-color);
+  border: 1px solid var(--border-color);
+  padding: 40px 50px;
+  margin: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: white;
+}
+.main-content1 .infobox:hover{
+  background-color: var(--glass-bg-color2);
+  color: black;
+}
+.main-content1 .infobox:hover p{
+  opacity: 0%;
+}
+.main-content1 .infobox:hover:after{
+  content: attr(data-hover);
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 200px;
+}
+.main-content2 .infobox{
+  background-color: var(--glass-bg-color);
+  border: 1px solid var(--border-color);
+  padding: 40px 50px;
+  margin: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: white;
+}
+.main-content2 .infobox:hover{
+  background-color: var(--glass-bg-color2);
+  color: black;
+}
+.main-content2 .infobox:hover p{
+  opacity: 0%;
+}
+.main-content2 .infobox:hover:after{
+  content: '';
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 200px;
+}
+.main-content3 .infobox{
+  background-color: var(--glass-bg-color);
+  border: 1px solid var(--border-color);
+  padding: 40px 50px;
+  margin: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: white;
+}
+.main-content3 .infobox:hover{
+  background-color: var(--glass-bg-color2);
+  color: black;
+}
+.main-content3 .infobox:hover p{
+  opacity: 0%;
+}
+.main-content3 .infobox:hover:after{
+  content: 'Devolped and Designed Pisa Tower and Saint-Catherine Mountain';
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 200px;
+}
+.main-content4 .infobox{
+  background-color: var(--glass-bg-color);
+  border: 1px solid var(--border-color);
+  padding: 40px 50px;
+  margin: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: white;
+}
+.main-content4 .infobox:hover{
+  background-color: var(--glass-bg-color2);
+  color: black;
+}
+.main-content4 .infobox:hover p{
+  opacity: 0%;
+}
+.main-content4 .infobox:hover:after{
+  content: '';
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 200px;
+}
+.main-content5 .infobox{
+  background-color: var(--glass-bg-color);
+  border: 1px solid var(--border-color);
+  padding: 40px 50px;
+  margin: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: white;
+}
+.main-content5 .infobox:hover{
+  background-color: var(--glass-bg-color2);
+  color: black;
+}
+.main-content5 .infobox:hover p{
+  opacity: 0%;
+}
+.main-content5 .infobox:hover:after{
+  content: 'Devolped and Designed Colosseum, Eiffel Tower';
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 200px;
+}
+.main-content6 .infobox{
+  background-color: var(--glass-bg-color);
+  border: 1px solid var(--border-color);
+  padding: 40px 50px;
+  margin: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: white;
+}
+.main-content6 .infobox:hover{
+  background-color: var(--glass-bg-color2);
+  color: black;
+}
+.main-content6 .infobox:hover p{
+  opacity: 0%;
+}
+.main-content6 .infobox:hover:after{
+  content: 'Devolped and Designed Abu Simple';
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 200px;
+}
+.main-content7 .infobox{
+  background-color: var(--glass-bg-color);
+  border: 1px solid var(--border-color);
+  padding: 40px 50px;
+  margin: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: white;
+}
+.main-content7 .infobox:hover{
+  background-color: var(--glass-bg-color2);
+  color: black;
+}
+.main-content7 .infobox:hover p{
+  opacity: 0%;
+}
+.main-content7 .infobox:hover:after{
+  content: '';
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 200px;
+}
+.main-content8 .infobox{
+  background-color: var(--glass-bg-color);
+  border: 1px solid var(--border-color);
+  padding: 40px 50px;
+  margin: 40px;
+  border-radius: 20px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.5s ease;
+  color: white;
+}
+.main-content8 .infobox:hover{
+  background-color: var(--glass-bg-color2);
+  color: black;
+}
+.main-content8 .infobox:hover p{
+  opacity: 0%;
+}
+.main-content8 .infobox:hover:after{
+  content: '';
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 200px;
+}
