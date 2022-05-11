@@ -68,6 +68,7 @@ justify-content: center;
 .main-content1 .infobox:hover{
   background-color: var(--glass-bg-color2);
   color: black;
+  font-weight: 600;
 }
 .main-content1 .infobox:hover p{
   opacity: 0%;
@@ -92,6 +93,7 @@ justify-content: center;
 .main-content2 .infobox:hover{
   background-color: var(--glass-bg-color2);
   color: black;
+  font-weight: 600;
 }
 .main-content2 .infobox:hover p{
   opacity: 0%;
@@ -116,6 +118,7 @@ justify-content: center;
 .main-content3 .infobox:hover{
   background-color: var(--glass-bg-color2);
   color: black;
+  font-weight: 600;
 }
 .main-content3 .infobox:hover p{
   opacity: 0%;
@@ -140,6 +143,7 @@ justify-content: center;
 .main-content4 .infobox:hover{
   background-color: var(--glass-bg-color2);
   color: black;
+  font-weight: 600;
 }
 .main-content4 .infobox:hover p{
   opacity: 0%;
@@ -164,6 +168,7 @@ justify-content: center;
 .main-content5 .infobox:hover{
   background-color: var(--glass-bg-color2);
   color: black;
+  font-weight: 600;
 }
 .main-content5 .infobox:hover p{
   opacity: 0%;
@@ -188,6 +193,7 @@ justify-content: center;
 .main-content6 .infobox:hover{
   background-color: var(--glass-bg-color2);
   color: black;
+  font-weight: 600;
 }
 .main-content6 .infobox:hover p{
   opacity: 0%;
@@ -212,6 +218,7 @@ justify-content: center;
 .main-content7 .infobox:hover{
   background-color: var(--glass-bg-color2);
   color: black;
+  font-weight: 600;
 }
 .main-content7 .infobox:hover p{
   opacity: 0%;
@@ -236,6 +243,7 @@ justify-content: center;
 .main-content8 .infobox:hover{
   background-color: var(--glass-bg-color2);
   color: black;
+  font-weight: 600;
 }
 .main-content8 .infobox:hover p{
   opacity: 0%;
