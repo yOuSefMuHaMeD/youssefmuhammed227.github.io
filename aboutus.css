@@ -139,7 +139,7 @@ justify-content: center;
   opacity: 0%;
 }
 .main-content2 .infobox:hover:after{
-  content: '';
+  content: 'Devolped and Designed Sign Up, Sign In';
   font-size: 24px;
   line-height: 28px;
   font-weight: 200px;
@@ -189,7 +189,7 @@ justify-content: center;
   opacity: 0%;
 }
 .main-content4 .infobox:hover:after{
-  content: '';
+  content: 'Devolped and Designed Karnak Temple';
   font-size: 24px;
   line-height: 28px;
   font-weight: 200px;
@@ -264,7 +264,7 @@ justify-content: center;
   opacity: 0%;
 }
 .main-content7 .infobox:hover:after{
-  content: '';
+  content: 'Devolped and Designed Sagradafamilia, Statue of Liberity';
   font-size: 24px;
   line-height: 28px;
   font-weight: 200px;
