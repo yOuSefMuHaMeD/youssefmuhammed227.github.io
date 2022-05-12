@@ -178,7 +178,7 @@ p {
   margin: 12px 0px 24px;
   line-height: 1.632;
   padding:10px;
-  font-size:larger;
+  font-size:20px;
   
 
   }
@@ -284,13 +284,13 @@ h5 {
 }
 .ved {
     
- 
-    padding: 50px;
+  padding: 20px;
     margin: 20px; 
     display: block;
-      margin-left: 400px;
+      margin-left: 220px;
       margin-right: 400px;
-      width: 40%;
+      width: 70%;
+      height: 500px;
      
       
       }
@@ -304,4 +304,39 @@ h5 {
       }
       th, td {
         padding: 15px;
+      }
+.social-items{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        margin:1px ;
+        position: relative;
+        left: -50px;
+        
+      }
+      .social-items li{
+        margin: 0 10px;
+      }
+      .social-items a i {
+        font-size:xx-large;
+        transition: color .4s ease ;
+  
+      }
+      .social-items a:hover i{
+        color: #60aa51;
+  
+      }
+      .table th{
+        font-size: xx-large;
+        color: #505d61;
+        font-size: larger;
+        
+       
+      }
+      .table td{
+        color: rgb(19, 18, 18);
+      }
+      .table{
+        color: #717171;
       }
