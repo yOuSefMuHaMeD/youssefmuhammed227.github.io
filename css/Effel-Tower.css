@@ -31,9 +31,10 @@ nav .logo p{
 }
 nav ul{
 	float: right;
-  width: 800px;
-  position: relative;
-  bottom: 135px;
+     width: 800px;
+     position: relative;
+        bottom: 135px;
+	left: 370px;
  
 }
 nav ul li{
